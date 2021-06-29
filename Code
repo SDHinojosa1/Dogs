@@ -1,0 +1,19 @@
+##Code for Dog Data SQL
+CREATE TABLE dogs (
+    dog_id INT PRIMARY KEY,
+    dogname VARCHAR (20),
+    breed VARCHAR(30)
+);
+DESCRIBE dogs;
+ALTER TABLE dogs ADD weight Decimal(5,2);
+
+INSERT into dogs values(1, 'Holly', 'Poodle', 20.2);
+
+select * from dogs;
+
+INSERT into dogs values(2, 'Buddy', 'Lab', 52.3);
+
+INSERT into dogs values(3, 'Spike', 'Retriever', 29.8);
+
+INSERT into dogs values(4, 'Shaq', 'Collie', 33.9);
+
